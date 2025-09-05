@@ -16,11 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from AkinatorTree.views import game,main_menu,yes_path,no_path
+from AkinatorTree.views import game,main_menu,yes_path,no_path,learn
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('game/',game),
+    path('game/learn/',learn),
     path('game/guess/yes/',yes_path),
     path('game/guess/no/',no_path),
     path('',main_menu)

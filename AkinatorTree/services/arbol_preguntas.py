@@ -7,22 +7,27 @@ class QuestionTree:
         return Question.objects.filter(parent=None).first()
     @staticmethod
     @transaction.atomic
-    def create_new_question(self, selected_character, difference, current_question, previous_question):
+    def create_new_question(selected_character, difference, current_question):
+        previous_question = current_question.parent
+        print(current_question)
+        print(previous_question)
         character_question = Question.objects.create(sentence=selected_character)
         new_question = Question.objects.create(
             sentence=difference,
             yes_answer=character_question,
             no_answer=current_question
         )
-        if previous_question:
+        character_question.parent = new_question
+        current_question.parent = new_question
+        character_question.save()
+        current_question.save()
+        if previous_question is not None:
             if previous_question.yes_answer == current_question:
                 previous_question.yes_answer = new_question
             else:
                 previous_question.no_answer = new_question
+            new_question.parent = previous_question
             previous_question.save()
-        else:
-            self.root = new_question
-        return new_question
     @staticmethod
     def height(node:Question):
         if node.yes_answer is not None:
