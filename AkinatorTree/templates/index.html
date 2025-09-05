@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akinator</title>
-</head>
-<body>
-    <h1>Akinator</h1>
-    <p>Bienvenido al juego del akinator</p>
-    <form action="/game/" method="post">
-        {% csrf_token %}
-        <input type="submit" value="Jugar!">
-    </form>
-    <script>
-        window.addEventListener('pageshow', function (event) {
-          if (event.persisted) {
-            window.location.reload();
-          }
-        });
-    </script>
-
-</body>
-</html>
+{% extends "base.html" %} {% block content %}
+<p>Bienvenido al juego del akinator</p>
+<form action="/game/" method="post">
+  {% csrf_token %}
+  <input type="submit" value="Jugar!" />
+</form>
+{% endblock %}

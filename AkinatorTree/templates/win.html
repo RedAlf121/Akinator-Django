@@ -1,15 +1,4 @@
-{% load django_htmx %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akinator</title>
-    {% htmx_script %}
-</head>
-<body hx-headers='{"x-csrftoken": "{{ csrf_token }}"}'>
-    <h1>Akinator</h1>
-    <p>Sii! He adivinado</p>
-    <button hx-get="/" hx-target="body">Volver al menu principal</button>
-</body>
-</html>
+{% extends "base.html" %} {% block content %}
+<p>Sii! He adivinado</p>
+<button hx-get="/" hx-target="body">Volver al menu principal</button>
+{% endblock %}

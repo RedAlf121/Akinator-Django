@@ -1,20 +1,7 @@
-{% load django_htmx %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akinator</title>
-    {% htmx_script %}
-</head>
-<body hx-headers='{"x-csrftoken": "{{ csrf_token }}"}'>
-    <h1>Akinator</h1>
-    <div id="question">
-        {{question}}
-    </div>
-    <div>
-        <button hx-get="guess/yes/" hx-target="body">Yes</button>
-        <button hx-get="guess/no/" hx-target="body">No</button>
-    </div>
-</body>
-</html>
+{% extends "base.html" %} {% block content %}
+<div id="question">{{question}}</div>
+<div>
+  <button hx-get="guess/yes/" hx-target="body">Yes</button>
+  <button hx-get="guess/no/" hx-target="body">No</button>
+</div>
+{% endblock %}
