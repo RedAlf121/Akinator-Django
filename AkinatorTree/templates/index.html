@@ -1,7 +1,15 @@
 {% extends "base.html" %} {% block content %}
-<p>Bienvenido al juego del akinator</p>
-<form action="/game/" method="post">
+<div class="relative flex flex-col items-center">
+        <h1 class="bg-[#DEB067] text-[#5C602A] rounded-3xl px-8 py-5 font-bold text-4xl text-center mb-2 shadow-lg inline-block relative">
+          Bienvenido al juego de Akinator
+          <span class="absolute left-1/2 -bottom-5 -translate-x-1/2 w-0 h-0 border-x-[18px] border-x-transparent border-t-[20px] border-t-[#DEB067]"></span>
+        </h1>
+      </div>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png" alt="Xatu" class="w-92 h-92 mb-4 rounded-full border-4 border-[#DEB067] shadow-lg bg-[#949494] mx-auto" />
+      <div class="bg-[#DEB067] text-[#5C602A] rounded-lg px-6 py-2 mb-6 shadow text-xl font-semibold text-center">Bueno yo no soy Akinator, yo soy Xatu</div>
+      <div class="flex flex-col items-center justify-center w-full">
+<form action="/game/" method="post" class="flex flex-col items-center">
   {% csrf_token %}
-  <input type="submit" value="Jugar!" />
+  <input type="submit" value="Jugar!" class="bg-[#DEB067] text-[#5C602A] font-bold rounded-lg px-8 py-3 shadow hover:bg-[#5C602A] hover:text-[#DEB067] transition-colors duration-200 text-xl cursor-pointer mt-4" />
 </form>
 {% endblock %}
