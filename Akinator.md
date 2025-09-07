@@ -62,15 +62,6 @@ class QuestionTree:
             new_question.parent = previous_question
             new_question.save()
             previous_question.save()
-        else:
-            print(current_question)
-    @staticmethod
-    def height(node:Question):
-        if node.yes_answer is not None:
-            yes_height = QuestionTree.height(node.yes_answer)
-            no_height = QuestionTree.height(node.no_answer)
-            return max(yes_height, no_height) + 1
-        return -1
 ```
 
 
