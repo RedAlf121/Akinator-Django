@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i9qw**tb0mlmzu_h)k6g+v$u0idw4ay3ztu&^ig42q^n8#-gjz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['akinator-django.vercel.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
