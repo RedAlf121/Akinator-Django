@@ -9,8 +9,6 @@ class QuestionTree:
     @transaction.atomic
     def create_new_question(selected_character, difference, current_question):
         previous_question = current_question.parent
-        print(current_question)
-        print(previous_question)
         character_question = Question.objects.create(sentence=selected_character)
         new_question = Question.objects.create(
             sentence=difference,
