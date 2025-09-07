@@ -1,7 +1,10 @@
-{% load django_htmx %} {% load static tailwind_tags %}
+{% load django_htmx %} 
+{% load static %}
+{% load tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="{% static 'button-colors.css' %}">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akinator</title>
@@ -11,7 +14,9 @@
   <body hx-headers='{"x-csrftoken": "{{ csrf_token }}"}'>
     <main class="min-h-screen flex flex-col items-center justify-center bg-white">
       
-        {% block content %} {% endblock %}
+        {% block content %} 
+        
+        {% endblock %}
       </div>
     </main>
     <script>
