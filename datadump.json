@@ -1,0 +1,1374 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "AkinatorTree",
+        "model": "question"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a8691kfs0dcabxo7c9pdt8rvv0k8c56g",
+    "fields": {
+        "session_data": ".eJxVTksOwiAQvQtrQygtIC7d9wxkmJlK1UBC25Xx7lLThe5e3v8lAmxrCtvCNcwkLqITp18uAj447wLdId-KxJLXOke5W-ShLnIsxM_r4f0rSLCkloYOTCR0uvdqMB6NY8OsYwMOnbfWw3TuDIIdpl4p1GR745UlS9ENKrZS3GrlvIbctr5f9fsDhZ4-uQ:1uuNlW:vBSmpOWMciUCGBJu5iEvKooDMLnSThUdcYWMYod1bK8",
+        "expire_date": "2025-09-19T04:09:34.035Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hoh00isppu6dk0eej2dmn9i6egeua6bl",
+    "fields": {
+        "session_data": ".eJxVjMEOgjAQRP-lZ9MU2m2tR-98Q7PdXQQ1JSlwMv67YLhwm7w3Mx9Fa61SllQmljSyulm4qITrMqR1lvpHqlEnlpFeUnbBTyyPSdNUljpmvVf0YWfdbZfv-9E9HQw4D9saG4TMFFobjYNIEARE2ryFQCF6H7G_NkDoXW-NoZa9hWg8e87Bmay-PxjGPu8:1uuV0v:KZOlYTcnD3tXw5ipuYkykpYhCtjO8tHEDRcbnh3i4xY",
+        "expire_date": "2025-09-19T11:53:57.322Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mir3rg7kl4ogg5cxivbzs8m0gy73l07p",
+    "fields": {
+        "session_data": ".eJxVjMEOgjAQRP-lZ9MU2m2tR-98Q7PdXQQ1JSlwMv67YLhwm7w3Mx9Fa61SllQmljSyulm4qITrMqR1lvpHqlEnlpFeUnbBTyyPSdNUljpmvVf0YWfdbZfv-9E9HQw4D9saG4TMFFobjYNIEARE2ryFQCF6H7G_NkDoXW-NoZa9hWg8e87Bmay-PxjGPu8:1uvMXQ:RcctJXbm-XfWk8pK9vYh96MnOg5n6Gyb6tWSInG1F-k",
+        "expire_date": "2025-09-21T21:03:04.594Z"
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 1,
+    "fields": {
+        "sentence": "Estas pensando en Michael Jackson?",
+        "parent": 39,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 34,
+    "fields": {
+        "sentence": "Cristiano Ronaldo",
+        "parent": 43,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 35,
+    "fields": {
+        "sentence": "Es futbolista",
+        "parent": null,
+        "yes_answer": 41,
+        "no_answer": 37
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 36,
+    "fields": {
+        "sentence": "Madonna",
+        "parent": 37,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 37,
+    "fields": {
+        "sentence": "Es mujer",
+        "parent": 35,
+        "yes_answer": 36,
+        "no_answer": 39
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 38,
+    "fields": {
+        "sentence": "Alejandro Sanz",
+        "parent": 39,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 39,
+    "fields": {
+        "sentence": "Es español",
+        "parent": 37,
+        "yes_answer": 38,
+        "no_answer": 1
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 40,
+    "fields": {
+        "sentence": "Messi",
+        "parent": 41,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 41,
+    "fields": {
+        "sentence": "Es argentino",
+        "parent": 35,
+        "yes_answer": 40,
+        "no_answer": 43
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 42,
+    "fields": {
+        "sentence": "Ronaldinho",
+        "parent": 43,
+        "yes_answer": null,
+        "no_answer": null
+    }
+},
+{
+    "model": "AkinatorTree.question",
+    "pk": 43,
+    "fields": {
+        "sentence": "Es brasileño",
+        "parent": 41,
+        "yes_answer": 42,
+        "no_answer": 34
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add question",
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "codename": "add_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change question",
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "codename": "change_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete question",
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "codename": "delete_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view question",
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "codename": "view_question"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$Unc3cry3YyfHMxHIkkrZjP$6cz6sROsJpHrilMgS5jLQAemgF/rtGZJi93GUr1xMvQ=",
+        "last_login": "2025-09-07T04:49:08.602Z",
+        "is_superuser": true,
+        "username": "redalf121",
+        "first_name": "",
+        "last_name": "",
+        "email": "patata@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-09-04T21:21:39.595Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-09-04T21:26:22.515Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "Question object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-09-04T21:27:36.507Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "Estas pensando en Michael Jackson?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Yes answer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-09-04T21:27:57.888Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Tu personaje es un cantante",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-09-04T21:28:24.421Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "3",
+        "object_repr": "Estas pensando en Cristiano Ronaldo?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-09-04T21:28:30.771Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Tu personaje es un cantante",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"No answer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-09-04T21:28:36.743Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Tu personaje es un cantante?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sentence\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-09-04T21:40:12.009Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "3",
+        "object_repr": "Estas pensando en Cristiano Ronaldo?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-09-04T21:40:17.448Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "Estas pensando en Michael Jackson?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-09-05T02:47:42.056Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "3",
+        "object_repr": "Estas pensando en Cristiano Ronaldo?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-09-05T02:47:49.008Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "Estas pensando en Michael Jackson?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Yes answer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-09-05T06:00:29.307Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "6",
+        "object_repr": "Alejandro Sanz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-09-05T06:00:34.671Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "7",
+        "object_repr": "Es Español",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-09-05T06:02:40.935Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "9",
+        "object_repr": "Es español",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-09-05T06:02:40.935Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "8",
+        "object_repr": "Alejandro Sanz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "11",
+        "object_repr": "Es español",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "10",
+        "object_repr": "Alejandro Sanz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "5",
+        "object_repr": "Es mujer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "4",
+        "object_repr": "Madonna",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "3",
+        "object_repr": "Estas pensando en Cristiano Ronaldo?",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-09-05T06:03:58.564Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Tu personaje es un cantante?",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-09-05T06:06:23.540Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "13",
+        "object_repr": "Es futbolista",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-09-05T06:06:23.540Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "12",
+        "object_repr": "Cristiano Ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-09-05T06:09:29.192Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "15",
+        "object_repr": "Es futbolista",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-09-05T06:09:29.192Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "14",
+        "object_repr": "Messi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-09-05T11:32:28.505Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "19",
+        "object_repr": "Le dicen el bicho",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "21",
+        "object_repr": "Es mujer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "20",
+        "object_repr": "Madonna",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "19",
+        "object_repr": "Le dicen el bicho",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "18",
+        "object_repr": "Cristiano Ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "17",
+        "object_repr": "Es futbolista",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-09-05T11:32:50.956Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "16",
+        "object_repr": "Messi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-09-05T11:35:41.682Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "27",
+        "object_repr": "Es mujer",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "27",
+        "object_repr": "Es mujer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "26",
+        "object_repr": "Madonna",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "25",
+        "object_repr": "Es argentino",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "24",
+        "object_repr": "Messi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "23",
+        "object_repr": "Es futbolista",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-09-05T11:36:25.633Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "22",
+        "object_repr": "Cristiano Ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-09-05T11:36:43.203Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "Estas pensando en Michael Jackson?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-09-05T11:43:59.518Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "29",
+        "object_repr": "Es futbolista",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-09-05T11:45:59.047Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "29",
+        "object_repr": "Es futbolista",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-09-05T11:46:06.561Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "31",
+        "object_repr": "Es mujer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-09-05T11:46:06.561Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "30",
+        "object_repr": "Madonna",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-09-05T11:46:22.792Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "29",
+        "object_repr": "Es futbolista",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"No answer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-09-05T11:47:13.245Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "33",
+        "object_repr": "Es mujer",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-09-05T11:47:13.245Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "32",
+        "object_repr": "Madonna",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-09-05T11:47:13.245Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "29",
+        "object_repr": "Es futbolista",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2025-09-05T11:47:13.245Z",
+        "user": [
+            "redalf121"
+        ],
+        "content_type": [
+            "AkinatorTree",
+            "question"
+        ],
+        "object_id": "28",
+        "object_repr": "Cristiano Ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
