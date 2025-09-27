@@ -1,25 +1,11 @@
 {
-  "version": 2,
+  "version": 3,
   "builds": [
-    {
-      "src": "Akinator/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.12.3" }
-    },
-    {
-      "src": "build_files.sh",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "staticfiles" }
-    }
+    { "src": "tu_proyecto/wsgi.py", "use": "@vercel/python" },
+    { "src": "build_files.sh", "use": "@vercel/static-build", "config": { "distDir": "staticfiles_build" } }
   ],
   "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "Akinator/wsgi.py"
-    }
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "tu_proyecto/wsgi.py" }
   ]
 }
